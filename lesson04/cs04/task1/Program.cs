@@ -17,7 +17,7 @@ namespace task1
         {
             var loginPattern = @"^[a-zA-Z]+$";
             var passwordPattern = @"^[0-9!@#$%^&*()_+\-=\[\]{};':""\\|,.<>\/?]+$";
-
+            //var passwordPattern = @"\d\D";
             for (; ; )
             {
                 Console.Write("Введите логин: ");
